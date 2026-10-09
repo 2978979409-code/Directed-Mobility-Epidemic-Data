@@ -1,0 +1,6 @@
+*.csv binary
+*.json text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.xls binary
+*.zip binary

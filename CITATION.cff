@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the manuscript and the original data sources."
+title: "Data for Directed Mobility Controls Invasion Thresholds in Discrete-Time Patch Epidemic Models"
+type: dataset
+authors:
+  - family-names: Yang
+    given-names: Yang
+  - family-names: Han
+    given-names: Xiaoling
+date-released: 2026-10-09
+repository-code: "https://github.com/2978979409-code/Directed-Mobility-Epidemic-Data"
+abstract: >-
+  Synthetic numerical outputs, frozen empirical source data, and processed
+  tables for a study of invasion thresholds in discrete-time patch epidemic
+  models with directed mobility.
+keywords:
+  - epidemic model
+  - directed mobility
+  - invasion threshold
+  - patch model
+  - reproducible data

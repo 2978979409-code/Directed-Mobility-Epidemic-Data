@@ -1,0 +1,287 @@
+{
+  "data/directional_effect.csv": {
+    "bytes": 9144,
+    "sha256": "5a8ebc7b0cb7b0e43b1b8308a06ea35bc9930d90d054df26f4d8ffa8e520c811",
+    "columns": [
+      "l21_over_l12",
+      "lambda_theta_1",
+      "lambda_infinity"
+    ],
+    "rows": 160
+  },
+  "data/empirical_constants.tex": {
+    "bytes": 1134,
+    "sha256": "e8d96305c7f057d42a2cfb847e9c398ef9fd07bfcbc68c5aa1efec0c1cd07db4"
+  },
+  "data/infection_time_series.csv": {
+    "bytes": 31202,
+    "sha256": "dcbcc3398bf5ff805eec2c549e3ffe02d92de684abd35ac8cfc5b000fe00a3b8",
+    "columns": [
+      "m",
+      "I1_low_mobility",
+      "I2_low_mobility",
+      "I_total_low_mobility",
+      "I1_high_mobility",
+      "I2_high_mobility",
+      "I_total_high_mobility"
+    ],
+    "rows": 251
+  },
+  "data/numerical_constants.tex": {
+    "bytes": 494,
+    "sha256": "e07d2eb43fdb22e43be54166f7097ad86d4599f73ac6b88160e9a63d26fce610"
+  },
+  "data/positivity_comparison.csv": {
+    "bytes": 146,
+    "sha256": "9c1690d786576962be8e77c464a17fca7b6934586c70bd244c8b49416c592f8e",
+    "columns": [
+      "m",
+      "minimum_structure_preserving",
+      "minimum_forward_euler"
+    ],
+    "rows": 3
+  },
+  "data/small_step_consistency.csv": {
+    "bytes": 574,
+    "sha256": "cd1aafdb49bec2279d65168193da0b4fa6cc344411b575b29253ce97218c9be6",
+    "columns": [
+      "h",
+      "lambda_h",
+      "scaled_growth",
+      "absolute_error"
+    ],
+    "rows": 8
+  },
+  "data/threshold_vs_theta.csv": {
+    "bytes": 4880,
+    "sha256": "bf890a0ea811cea3d7379cfd033c0da830fd069a03ee817f89ac0ee8ca111d11",
+    "columns": [
+      "theta",
+      "lambda"
+    ],
+    "rows": 161
+  },
+  "empirical_data/data/acs_directional_flow_proxy_nj_pa.csv": {
+    "bytes": 197,
+    "sha256": "db965a1fd068997c80c85869b23a0a8de65b82772be28f2bd4567309b13adc7f",
+    "columns": [
+      "flow_a_to_b",
+      "flow_b_to_a",
+      "weight_a_fast",
+      "weight_b_fast",
+      "flow_ratio_a_to_b_over_b_to_a",
+      "state_a",
+      "state_b"
+    ],
+    "rows": 1
+  },
+  "empirical_data/data/active_window_sensitivity.csv": {
+    "bytes": 556,
+    "sha256": "eab0440017393cfc64588d4af97b430d9c3b52fa42e198de7f9128be1e6b6e8f",
+    "columns": [
+      "active_window_days",
+      "threshold",
+      "correlation_with_next_growth",
+      "sign_accuracy",
+      "n_weeks"
+    ],
+    "rows": 8
+  },
+  "empirical_data/data/all_state_kaggle_nyt_reliability_screen.csv": {
+    "bytes": 4176,
+    "sha256": "d5976cecd36f85a65090f068440a0ea00146564749fc35db8d8799fdef19196c",
+    "columns": [
+      "state_label",
+      "days",
+      "mean_cases_rel_diff",
+      "max_cases_rel_diff",
+      "mean_cases_abs_diff",
+      "max_cases_abs_diff"
+    ],
+    "rows": 50
+  },
+  "empirical_data/data/empirical_summary.csv": {
+    "bytes": 828,
+    "sha256": "bfb61be14539ca708a7509430f2c394aed5a589028cb4558dbe7a695e486ac74",
+    "columns": [
+      "kaggle_ref",
+      "kaggle_last_updated",
+      "kaggle_license",
+      "raw_rows",
+      "cleaned_rows",
+      "duplicate_rows",
+      "crosscheck_mean_relative_difference",
+      "crosscheck_max_relative_difference",
+      "weekly_points",
+      "lambda0_corr",
+      "lambdainf_corr",
+      "lambda0_accuracy",
+      "lambdainf_accuracy",
+      "candidate_weeks",
+      "selected_date",
+      "selected_nu_a",
+      "selected_nu_b",
+      "selected_lambda0",
+      "selected_lambdainf",
+      "selected_next_growth",
+      "flow_a_to_b",
+      "flow_b_to_a",
+      "flow_ratio",
+      "fast_weight_a",
+      "fast_weight_b",
+      "theta_star"
+    ],
+    "rows": 1
+  },
+  "empirical_data/data/empirical_uncertainty_checks.csv": {
+    "bytes": 420,
+    "sha256": "e0800e209ddc015619b6233d9e8cbcfbaf471decb9860699eb1577b3e692dcde",
+    "columns": [
+      "threshold",
+      "bootstrap_replicates",
+      "correlation",
+      "correlation_ci_low",
+      "correlation_ci_high",
+      "correlation_permutation_p_one_sided",
+      "sign_accuracy",
+      "sign_accuracy_ci_low",
+      "sign_accuracy_ci_high"
+    ],
+    "rows": 2
+  },
+  "empirical_data/data/kaggle_cleaned_county_day.csv": {
+    "bytes": 81998505,
+    "sha256": "1ab7dfdf2ab59f7cf9191d47c46b60315a7d7f2dfbc8899c2b2166579ca831c5",
+    "columns": [
+      "date",
+      "state",
+      "county",
+      "fips",
+      "cases",
+      "deaths",
+      "daily_cases",
+      "daily_deaths",
+      "day_of_week",
+      "is_weekend",
+      "is_holiday",
+      "retail_recreation",
+      "grocery_pharmacy",
+      "parks",
+      "transit",
+      "workplaces",
+      "residential"
+    ],
+    "rows": 931458
+  },
+  "empirical_data/data/kaggle_vs_nyt_selected_state_crosscheck.csv": {
+    "bytes": 269,
+    "sha256": "887712c12ff01f4d3164a8908377ec90adce541e2aca62f239372ae40a35e947",
+    "columns": [
+      "state_label",
+      "days",
+      "mean_cases_rel_diff",
+      "max_cases_rel_diff",
+      "mean_cases_abs_diff",
+      "max_cases_abs_diff"
+    ],
+    "rows": 2
+  },
+  "empirical_data/data/nj_pa_daily_active_mobility.csv": {
+    "bytes": 121055,
+    "sha256": "e748e9e7ca1e52f4e258e282ad385f42deb1c5f1f5bd1257ff2fc0d38e9fd0c5",
+    "columns": [
+      "date",
+      "state",
+      "daily_cases",
+      "daily_deaths",
+      "retail_recreation",
+      "grocery_pharmacy",
+      "parks",
+      "transit",
+      "workplaces",
+      "residential",
+      "active_proxy",
+      "contact_mobility_index"
+    ],
+    "rows": 730
+  },
+  "empirical_data/data/selected_week_lambda_theta_curve.csv": {
+    "bytes": 8415,
+    "sha256": "b89421f9d782525a474b932c2bf7134cb1044f4a2f4bc239315c3b5de1ba1f1f",
+    "columns": [
+      "theta",
+      "lambda_theta"
+    ],
+    "rows": 220
+  },
+  "empirical_data/data/weekly_threshold_validation_nj_pa.csv": {
+    "bytes": 6551,
+    "sha256": "153ef70e92f9ab30df1adf5553605ac0cda2ec5fd60f41d3e906a83b042858a9",
+    "columns": [
+      "date",
+      "active_a",
+      "active_b",
+      "nu_a",
+      "nu_b",
+      "lambda_no_mobility",
+      "lambda_fast_directional",
+      "observed_next_total_growth",
+      "pred_no_mobility_growth",
+      "pred_fast_directional_growth",
+      "observed_growth"
+    ],
+    "rows": 50
+  },
+  "empirical_data/raw/kaggle_human_mobility_2021/IntegratedData.csv": {
+    "bytes": 82464173,
+    "sha256": "034318a4e63a2a72bca8b0762ee0bd03e0d1776b45fca123a9278d9a8fb9ca91",
+    "columns": [
+      "date",
+      "county",
+      "state",
+      "fips",
+      "cases",
+      "deaths",
+      "daily_cases",
+      "daily_deaths",
+      "day_of_week",
+      "is_weekend",
+      "is_holiday",
+      "retail_recreation",
+      "grocery_pharmacy",
+      "parks",
+      "transit",
+      "workplaces",
+      "residential"
+    ],
+    "rows": 935442
+  },
+  "empirical_data/raw/kaggle_human_mobility_2021.zip": {
+    "bytes": 13817264,
+    "sha256": "4bebe7120528cd80d87b8e75b16f17a7300ad8cd856987ad75161f8e31c1da56"
+  },
+  "empirical_data/raw/kaggle_human_mobility_2021_metadata.json": {
+    "bytes": 12376,
+    "sha256": "ac4bd0227efa5ff5e4df38084567250e031a82541bd969114bf5e931d4d1afef"
+  },
+  "empirical_data/raw/nytimes_us_states_official.csv": {
+    "bytes": 2217680,
+    "sha256": "0b202f6ac8bad66b70b9e344c07155e3f1ce9338f86192af072b56ce448dfc43",
+    "columns": [
+      "date",
+      "state",
+      "fips",
+      "cases",
+      "deaths"
+    ],
+    "rows": 61942
+  },
+  "empirical_data/raw/State_to_State_Migrations_Table_2021.xls": {
+    "bytes": 107520,
+    "sha256": "0bededad30355cd6a2246e29906cd4f26831e46299d40fd8e21551d9786da6f2"
+  },
+  "empirical_data/reports/source_urls_and_reproducibility.md": {
+    "bytes": 1773,
+    "sha256": "9762cef1acdbec97e7a241f266bf330acd39bd64d6094674b30a0273e2f278cf"
+  }
+}
