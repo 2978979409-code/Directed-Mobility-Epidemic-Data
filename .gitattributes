@@ -4,3 +4,5 @@
 *.tex text eol=lf
 *.xls binary
 *.zip binary
+data/** binary
+empirical_data/** binary
